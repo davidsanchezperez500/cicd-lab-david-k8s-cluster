@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config-map
+  namespace: my-ns
+  labels:
+    app: myapp
+data:
+   myKey: myValue
+   anotherKey: anotherValue
